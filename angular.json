@@ -29,6 +29,9 @@
             ],
             "styles": [
               {
+                "input": "src/themes.scss"
+              },
+              {
                 "input": "src/styles.css"
               }
             ],

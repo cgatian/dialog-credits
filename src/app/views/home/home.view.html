@@ -1,0 +1,4 @@
+<h2>Home</h2>
+<router-outlet name="dialog"></router-outlet>
+<router-outlet></router-outlet>
+<a [routerLink]="[{ outlets: { dialog: ['credits'] } }]">Credits</a>
